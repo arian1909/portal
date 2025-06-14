@@ -8,7 +8,8 @@ Portal aplikasi Vue.js yang di-deploy menggunakan Azure App Service dengan Docke
 ## Deployment Information
 - **App Service Name**: portal-webapp-arian
 - **Resource Group**: rg-arianbarker1909
-- **URL**: https://portal-webapp-arian.azurewebsites.net
+- **URL**: https://portal-arian-flexidev.yankers.fun (Custom Domain)
+- **Fallback URL**: https://portal-webapp-arian.azurewebsites.net
 - **Docker Image**: arian1909/portal:latest
 
 ## Architecture

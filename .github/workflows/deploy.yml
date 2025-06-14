@@ -44,4 +44,10 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'portal-webapp-arian'
-        images: 'arian1909/portal:${{ github.sha }}' 
+        images: 'arian1909/portal:${{ github.sha }}'
+        
+    - name: Warm up application
+      run: |
+        echo "Warming up custom domain..."
+        curl -I https://portal-arian-flexidev.yankers.fun || echo "Custom domain not ready yet"
+        curl -I https://portal-webapp-arian.azurewebsites.net 
