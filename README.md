@@ -3,6 +3,8 @@
 ## Overview
 Portal aplikasi Vue.js yang di-deploy menggunakan Azure App Service dengan Docker container.
 
+<!-- CI/CD Test - Updated: 2025-06-14 08:15 UTC -->
+
 ## Deployment Information
 - **App Service Name**: portal-webapp-arian
 - **Resource Group**: rg-arianbarker1909
@@ -58,3 +60,5 @@ Untuk GitHub Actions, tambahkan secrets berikut:
 - luke.edwards@flexidev.co
 - dion.sasmito@flexidev.co
 - cininta.golda@flexidev.co
+
+## Test CI/CD
