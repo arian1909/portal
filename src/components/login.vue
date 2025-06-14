@@ -42,6 +42,12 @@
 						</div>
 					</v-card>
 				</v-row>
+				<!-- Watermark -->
+				<v-row no-gutters justify="center" class="mt-4">
+					<div class="watermark-text">
+						Deployed By Arian Pratomo
+					</div>
+				</v-row>
 			</div>
 		</v-row>
 	</v-main>
@@ -85,4 +91,17 @@ export default {
 </script>
 
 <style>
-</style>Î
+.watermark-text {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	font-style: italic;
+	margin-top: 20px;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.watermark-text:hover {
+	color: rgba(0, 0, 0, 0.7);
+	transition: color 0.3s ease;
+}
+</style>
