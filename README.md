@@ -1,9 +1,7 @@
 # Portal Application
 
 ## Overview
-Portal aplikasi Vue.js yang di-deploy menggunakan Azure App Service dengan Docker container.
-
-<!-- CI/CD Test - Updated: 2025-06-14 08:15 UTC -->
+Vue.js portal application deployed using Azure App Service with Docker container.
 
 ## Deployment Information
 - **App Service Name**: portal-webapp-arian
@@ -13,7 +11,7 @@ Portal aplikasi Vue.js yang di-deploy menggunakan Azure App Service dengan Docke
 - **Docker Image**: arian1909/portal:latest
 
 ## Architecture
-- **Frontend**: Vue.js dengan Vuetify
+- **Frontend**: Vue.js with Vuetify
 - **Web Server**: Nginx
 - **Container Registry**: Docker Hub
 - **Cloud Platform**: Azure App Service
@@ -46,16 +44,16 @@ docker push arian1909/portal:latest
 4. Configure container settings
 
 ### CI/CD Pipeline
-GitHub Actions workflow ter-trigger otomatis pada:
-- Push ke branch main
-- Pull request ke main
+GitHub Actions workflow automatically triggers on:
+- Push to main branch
+- Pull request to main
 - Manual trigger
 
 ## Required Secrets
-Untuk GitHub Actions, tambahkan secrets berikut:
-- `DOCKER_USERNAME`: Username Docker Hub
-- `DOCKER_PASSWORD`: Password Docker Hub
-- `AZURE_CREDENTIALS`: JSON credentials untuk Azure
+For GitHub Actions, add the following secrets:
+- `DOCKER_USERNAME`: Docker Hub Username
+- `DOCKER_PASSWORD`: Docker Hub Password
+- `AZURE_CREDENTIALS`: JSON credentials for Azure
 
 ## Contributors
 - luke.edwards@flexidev.co
