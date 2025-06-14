@@ -92,16 +92,19 @@ export default {
 
 <style>
 .watermark-text {
-	font-size: 12px;
-	color: rgba(0, 0, 0, 0.5);
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.75);
 	font-style: italic;
 	margin-top: 20px;
 	text-align: center;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.8px;
+	font-weight: 400;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .watermark-text:hover {
-	color: rgba(0, 0, 0, 0.7);
+	color: rgba(0, 0, 0, 0.9);
 	transition: color 0.3s ease;
+	transform: scale(1.02);
 }
 </style>
