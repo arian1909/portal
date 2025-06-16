@@ -1,4 +1,4 @@
-# Portal Application
+## Portal Application
 
 ## Overview
 Vue.js portal application deployed using Azure App Service with Docker container.
